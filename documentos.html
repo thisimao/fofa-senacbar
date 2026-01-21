@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Documentos Educacionais</title>
+
+<link rel="icon" href="fofa-logo.png">
+
+<style>
+*{box-sizing:border-box}
+
+html, body{
+  height:100%;
+}
+
+body{
+  margin:0;
+  font-family:"Segoe UI", Arial, sans-serif;
+  background:#f4f6f9;
+  color:#2c2c2c;
+  display:flex;
+  flex-direction:column;
+}
+
+/* HEADER */
+header{
+  background:linear-gradient(90deg,#1f4fd8,#1639a5);
+  color:#fff;
+  padding:25px;
+  display:flex;
+  align-items:center;
+  gap:25px;
+  flex-wrap:wrap;
+}
+
+header img{height:150px}
+
+header h1{margin:0;font-size:28px}
+header p{margin:6px 0 0;opacity:.9}
+
+/* CONTEÚDO PRINCIPAL */
+main{
+  flex:1;
+}
+
+/* SEÇÕES */
+section{
+  max-width:1150px;
+  margin:auto;
+  padding:30px 25px;
+}
+
+h2{margin-top:0;color:#1f4fd8}
+
+/* GRID */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:24px;
+}
+
+/* CARD */
+.card{
+  background:#fff;
+  border-radius:16px;
+  padding:22px;
+  box-shadow:0 8px 20px rgba(0,0,0,.08);
+  position:relative;
+  transition:.3s;
+}
+
+.card:hover{
+  transform:translateY(-4px);
+  box-shadow:0 12px 28px rgba(0,0,0,.12);
+}
+
+.card::before{
+  content:"";
+  height:6px;
+  width:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  border-radius:16px 16px 0 0;
+  background:#1f4fd8;
+}
+
+.card h3{
+  margin-top:14px;
+  margin-bottom:10px;
+  font-size:18px;
+}
+
+.card p{
+  margin:6px 0 18px;
+  line-height:1.5;
+}
+
+/* BOTÃO */
+.card a{
+  display:inline-block;
+  background:linear-gradient(90deg,#1f4fd8,#1639a5);
+  color:#fff;
+  padding:12px 22px;
+  border-radius:30px;
+  font-size:14px;
+  font-weight:600;
+  text-decoration:none;
+  transition:.3s;
+}
+
+.card a:hover{opacity:.9}
+
+/* FOOTER */
+footer{
+  background:#1f4fd8;
+  color:#fff;
+  text-align:center;
+  padding:18px;
+  font-size:14px;
+}
+
+@media(max-width:600px){
+  header{flex-direction:column;text-align:center}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <img src="fofa-logo.png">
+  <div>
+    <h1>Documentos Educacionais</h1>
+    <p>Repositório institucional de materiais pedagógicos</p>
+  </div>
+</header>
+
+<main>
+
+<section>
+  <h2>Central de documentos</h2>
+  <p>
+    Acesse abaixo os <strong>documentos educacionais institucionais</strong>.
+    Os arquivos abrem em nova aba.
+  </p>
+</section>
+
+<section>
+  <div class="grid">
+
+       <div class="card">
+      <h3>Proposta Pedagógica</h3>
+      <p>Orientações sobre a proposta pedagógica.</p>
+      <a href="./Proposta Pedagogica Senac SP.pdf" target="_blank">
+        Acessar documento
+      </a>
+    </div>
+       <div class="card">
+      <h3>Prática Pedagógica</h3>
+      <p>Orientações para a prática pedagógica (Planejar).</p>
+      <a href="./Série Orientações para Prática Pedagógica - Planejar.pdf" target="_blank">
+        Acessar documento
+      </a>
+    </div>
+       <div class="card">
+      <h3>Regimento das Unidades</h3>
+      <p>Orientações sobre o regimento das unidades.</p>
+      <a href="./Regimento_Senac_2025_V6_ilustrado.pdf" target="_blank">
+        Acessar documento
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>Abusos e Maus-Tratos</h3>
+      <p>Orientações sobre proteção integral de crianças e adolescentes.</p>
+      <a href="./Abusos_e_Maus_tratos_a_criancas_e_adolescentes.pdf" target="_blank">
+        Acessar documento
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>Manual de Comunicação LGBTI+</h3>
+      <p>Diretrizes para uma comunicação inclusiva e respeitosa.</p>
+      <a href="./manual-comunicacao-LGBTI.pdf" target="_blank">
+        Acessar documento
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>Bullying e Cyberbullying</h3>
+      <p>Orientações para prevenção e enfrentamento no ambiente escolar.</p>
+      <a href="./Orientacoes_Bullying_e_Cyerbullying.pdf" target="_blank">
+        Acessar documento
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>Linguagem Neutra</h3>
+      <p>Orientações educacionais para uso de linguagem neutra.</p>
+      <a href="./Orientacoes_Educacionais_para_Uso_Linguagem_Neutra.pdf" target="_blank">
+        Acessar documento
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>Conflitos na Escola</h3>
+      <p>Orientações pedagógicas para mediação e resolução de conflitos.</p>
+      <a href="./OrientacoesPedagogicas-Conflitosnaescola.pdf" target="_blank">
+        Acessar documento
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>Segurança na Escola</h3>
+      <p>Protocolo de ameaças e procedimentos de segurança.</p>
+      <a href="./Protocolo_Ameacas_Seguranca_na_Escola.v2.pdf" target="_blank">
+        Acessar documento
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>Porte de Armas</h3>
+      <p>Orientações institucionais sobre porte de armas.</p>
+      <a href="./Protocolo_Portedearmas.pdf" target="_blank">
+        Acessar documento
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>Saúde Mental</h3>
+      <p>Material orientador sobre saúde mental no contexto educacional.</p>
+      <a href="./Saude_Mental.pdf" target="_blank">
+        Acessar documento
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>Prevenção ao Suicídio</h3>
+      <p>Diretrizes institucionais de prevenção e acolhimento.</p>
+      <a href="./Suicidio_Versao2.pdf" target="_blank">
+        Acessar documento
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>Uso e Tráfico de Substâncias</h3>
+      <p>Orientações educacionais sobre prevenção ao uso de drogas.</p>
+      <a href="./Uso_e_trafico_de_substancias_psicoativas.pdf" target="_blank">
+        Acessar documento
+      </a>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<footer>
+© 2026 – FOFA SENAC Barretos · Desenvolvido por Thiago Simão (TI)
+</footer>
+
+</body>
+</html>
